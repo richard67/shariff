@@ -1,14 +1,14 @@
 # Shariff-Plus – Social-Media-Buttons mit Datenschutz [![Build Status](https://travis-ci.org/richard67/shariff-plus.svg?branch=master)](https://travis-ci.org/richard67/shariff-plus)
 
-Um die Privatsphäre ihrer Besucher gegenüber den Social-Media-Netzwerken zu bewahren, können Webseiten-Betreiber mit dem Projekt Shariff-Plus eigene Social-Media-Buttons zum Teilen oder Anzeigen des Facebook-Buttons "Gefällt mir" integrieren.
+Um die Privatsphäre ihrer Besucher gegenüber den Social-Media-Netzwerken zu bewahren, können Webseiten-Betreiber mit dem Projekt Shariff-Plus eigene Social-Media-Buttons zum Teilen oder Anzeigen des Facebook-Buttons "Gefällt mir" integrieren. [Demo](https://www.richard-fath.de/shariff-plus-demo/index.html)
 
 Shariff-Plus ist identisch mit [Shariff von Heise Medien](https://github.com/heiseonline/shariff) plus Erweiterungen wie die Anzeige des Facebook-Buttons "Gefällt mir" in einem Dialog, welche nicht für die Integration in Shariff vorgesehen sind, oder andere Erweiterungen und Korrekturen für Shariff, die (noch) nicht in Shariff integriert wurden.
 
-Der Code der offiziellen Buttons von Facebook, Google+ und Twitter überträgt von jedem Besucher kennzeichnende Daten an die Social-Media-Netzwerke. Shariff-Plus erzeugtze hingegen Buttons, die mit einem Klick die Dialoge zum Teilen oder Vergeben von "Gefällt mir" bei Facebook anzeigen, die Anzahl der Likes für die aktuelle Seite anzeigen und trotzdem keine unnötigen Daten übertragen.
+Der Code der offiziellen Buttons von Facebook, Google+ und Twitter überträgt von jedem Besucher kennzeichnende Daten an die Social-Media-Netzwerke. Shariff-Plus erzeugt hingegen Buttons, die mit einem Klick die Dialoge zum Teilen oder Vergeben von "Gefällt mir" bei Facebook anzeigen, die Anzahl der Likes für die aktuelle Seite anzeigen und trotzdem keine unnötigen Daten übertragen.
 
 **Shariff** `(/ˈʃɛɹɪf/)` ist ein Open-Source Projekt von c't und heise online.
 
-Shariff besteht aus zwei Teilen. Der erste Teil ist eine einfache JavaScript-Bibliothek einschließlich Vektor-Icons und CSS zur Formatierung der Knöpfe. Der zweite ist die optionale, server-seitige Komponente (derzeit für PHP, Perl oder NodeJS). Mit dem Shariff-Backend auf dem eigenen Server muss der Browser des Besuchers zur Darstellung der Share-Counts keine Verbindung zu Facebook, Twitter oder Google+ aufbauen. Daten werden erst dann zum Social-Media-Netzwerk übertragen, wenn der Besucher den Inhalt tatsächlich teilen möchte.
+Shariff besteht aus zwei Teilen. Der erste Teil ist eine einfache JavaScript-Bibliothek einschließlich Vektor-Icons und CSS zur Formatierung der Knöpfe. Der zweite ist die optionale, server-seitige Komponente (derzeit für PHP, Perl oder NodeJS). Mit dem Shariff-Backend auf dem eigenen Server muss der Browser des Besuchers zur Darstellung der Share-Counts keine Verbindung zu Facebook oder Google+ aufbauen. Daten werden erst dann zum Social-Media-Netzwerk übertragen, wenn der Besucher den Inhalt tatsächlich teilen möchte.
 
 **Shariff-Plus** ist ein Open-Source Projekt von [mir](https://github.com/richard67). Es kann anstelle der Shariff-JavaScript-Bibliothek genutzt werden und verwendet optional die server-seitige Komponente von (Original-)Shariff.
 
@@ -66,7 +66,7 @@ $ npm run dev
 | Attribut         | Beschreibung | Default |
 |------------------|--------------|---------|
 | `data-backend-url` | Pfad zum Shariff-[Backend](#backends). Der Wert `null` deaktiviert die Anzeige von Share-Counts.  | `null` |
-| `data-dialogs-media-url` | Pfad zu css oder js für spezielle Dialoge wie z.B. den des Services `facebooklike`. | Pfad zum Verzeichnis, in dem Shariff installiert ist. |
+| `data-dialogs-media-url` | Pfad zu css oder js für spezielle Dialoge wie z.B. den des Services `facebooklike` Dies muss eine absolute URL sein. Beispiel: `https://www.example.com/shariff`. Dies erlaubt es, eigene css z.B. für den Dialog `facebooklike` zu verwenden. | Pfad zum Verzeichnis, in dem Shariff-Plus installiert ist. |
 | `data-facebook-count-btn` | Die Buttons(s), die den Zähler vom Backend anzeigen sollen, wenn beide Services `facebook` und `facebooklike` verwendet werden. Werte: `like`, `share`, `both`. | `both` |
 | `data-facebooklike-options` | Objekt mit Optionen für den Button "Gefällt mir" von Facebook, wie sie der Facebook Konfigurator für den Button liefert. Für die Verwendung im `data`-Attribut muss die Angabe Entity-enkodiert werden. Beispiel mit den Standardwerten von Facebook: `data-facebooklike-options="{&quot;width&quot;:450,&quot;layout&quot;:&quot;standard&quot;,&quot;action&quot;:&quot;like&quot;,&quot;size&quot;:&quot;large&quot;,&quot;show_faces&quot;:true,&quot;share&quot;:true,&quot;appId&quot;:&quot;99999&quot;}"` mit 99999 = Facebook `app_id`. | Siehe Beispiel, mit appId = Wert des Meta-Tags `fb:app_id` oder `null`, wenn nicht definiert. |
 | `data-flattr-category` | Kategorie für Flattr-Spende. | `null` |

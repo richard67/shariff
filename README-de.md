@@ -4,11 +4,11 @@ Um die Privatsphäre ihrer Besucher gegenüber den Social-Media-Netzwerken zu be
 
 Shariff-Plus ist identisch mit [Shariff von Heise Medien](https://github.com/heiseonline/shariff) plus Erweiterungen wie die Anzeige des Facebook-Buttons "Gefällt mir" in einem Dialog, welche nicht für die Integration in Shariff vorgesehen sind, oder andere Erweiterungen und Korrekturen für Shariff, die (noch) nicht in Shariff integriert wurden.
 
-Der Code der offiziellen Buttons von Facebook, Google+ und Twitter überträgt von jedem Besucher kennzeichnende Daten an die Social-Media-Netzwerke. Shariff-Plus erzeugtze hingegen Buttons, die mit einem Klick die Dialoge zum Teilen oder Vergeben von "Gefällt mir" bei Facebook anzeigen, die Anzahl der Likes für die aktuelle Seite anzeigen und trotzdem keine unnötigen Daten übertragen.
+Der Code der offiziellen Buttons von Facebook, Google+ und Twitter überträgt von jedem Besucher kennzeichnende Daten an die Social-Media-Netzwerke. Shariff-Plus erzeugt hingegen Buttons, die mit einem Klick die Dialoge zum Teilen oder Vergeben von "Gefällt mir" bei Facebook anzeigen, die Anzahl der Likes für die aktuelle Seite anzeigen und trotzdem keine unnötigen Daten übertragen.
 
 **Shariff** `(/ˈʃɛɹɪf/)` ist ein Open-Source Projekt von c't und heise online.
 
-Shariff besteht aus zwei Teilen. Der erste Teil ist eine einfache JavaScript-Bibliothek einschließlich Vektor-Icons und CSS zur Formatierung der Knöpfe. Der zweite ist die optionale, server-seitige Komponente (derzeit für PHP, Perl oder NodeJS). Mit dem Shariff-Backend auf dem eigenen Server muss der Browser des Besuchers zur Darstellung der Share-Counts keine Verbindung zu Facebook, Twitter oder Google+ aufbauen. Daten werden erst dann zum Social-Media-Netzwerk übertragen, wenn der Besucher den Inhalt tatsächlich teilen möchte.
+Shariff besteht aus zwei Teilen. Der erste Teil ist eine einfache JavaScript-Bibliothek einschließlich Vektor-Icons und CSS zur Formatierung der Knöpfe. Der zweite ist die optionale, server-seitige Komponente (derzeit für PHP, Perl oder NodeJS). Mit dem Shariff-Backend auf dem eigenen Server muss der Browser des Besuchers zur Darstellung der Share-Counts keine Verbindung zu Facebook oder Google+ aufbauen. Daten werden erst dann zum Social-Media-Netzwerk übertragen, wenn der Besucher den Inhalt tatsächlich teilen möchte.
 
 **Shariff-Plus** ist ein Open-Source Projekt von [mir](https://github.com/richard67). Es kann anstelle der Shariff-JavaScript-Bibliothek genutzt werden und verwendet optional die server-seitige Komponente von (Original-)Shariff.
 

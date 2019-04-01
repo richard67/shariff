@@ -1,6 +1,6 @@
 # Changelog
 
-## Unreleased
+## v2.2.0, 2019-04-01
 
 - Add allow="encrypted-media" to iframe code of FB Like button in FacebookLike dialog ([#20](https://github.com/richard67/shariff-plus/pull/20)).
 

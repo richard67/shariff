@@ -4,6 +4,13 @@
 
 - Add allow="encrypted-media" to iframe code of FB Like button in FacebookLike dialog ([#20](https://github.com/richard67/shariff-plus/pull/20)).
 
+Fetched from [heiseonline/shariff](https://github.com/heiseonline/shariff):
+
+- Added buffer service ([heiseonline#361](https://github.com/heiseonline/shariff/pull/361)).
+- Updated dependencies.
+- Updated Font Awesome to version 5.8.1 ([heiseonline#360](https://github.com/heiseonline/shariff/pull/360)).
+- Updated Xing share URL ([heiseonline#354](https://github.com/heiseonline/shariff/pull/354)).
+
 ## v2.1.0, 2019-01-29
 
 Fetched from [heiseonline/shariff](https://github.com/heiseonline/shariff):

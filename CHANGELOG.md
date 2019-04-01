@@ -11,6 +11,10 @@ Fetched from [heiseonline/shariff](https://github.com/heiseonline/shariff):
 - Updated Font Awesome to version 5.8.1 ([heiseonline#360](https://github.com/heiseonline/shariff/pull/360)).
 - Updated Xing share URL ([heiseonline#354](https://github.com/heiseonline/shariff/pull/354)).
 
+## v2.1.1, 2019-01-29
+
+Fixed deployment to npmjs.com.
+
 ## v2.1.0, 2019-01-29
 
 Fetched from [heiseonline/shariff](https://github.com/heiseonline/shariff):

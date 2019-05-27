@@ -1,5 +1,12 @@
 # Changelog
 
+## v2.2.1, 2019-05-27
+
+Fetched from [heiseonline/shariff](https://github.com/heiseonline/shariff):
+
+- Added translations for French, Italian, Polish, Russian and Dutch to print service ([heiseonline#362](https://github.com/heiseonline/shariff/pull/362)).
+- Updated dependencies.
+
 ## v2.2.0, 2019-04-01
 
 - Add allow="encrypted-media" to iframe code of FB Like button in FacebookLike dialog ([#20](https://github.com/richard67/shariff-plus/pull/20)).

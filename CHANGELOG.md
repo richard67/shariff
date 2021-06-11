@@ -1,5 +1,23 @@
 # Changelog
 
+## v2.2.2-dev
+
+Fetched from [heiseonline/shariff](https://github.com/heiseonline/shariff):
+
+- Remove LinkedIn share count from backend.json ([heiseonline#365](https://github.com/heiseonline/shariff/pull/365)).
+
+Fetched open pull requests from [heiseonline/shariff](https://github.com/heiseonline/shariff):
+
+- Updated WhatsApp URL to WhatsApp Web ([heiseonline#381](https://github.com/heiseonline/shariff/pull/381)).
+- Updated LinkedIn URL to 2020 Version ([heiseonline#382](https://github.com/heiseonline/shariff/pull/382)).
+- Updated max. text length for Twitter ([heiseonline#401](https://github.com/heiseonline/shariff/pull/401)).
+
+Other changes:
+
+- Open WhatsApp link in new tab (see [heiseonline#381 (comment)](https://github.com/heiseonline/shariff/pull/381#issuecomment-761708915))
+- Update iframe code for the Facebook Like button ([#21](https://github.com/richard67/shariff-plus/pull/21)).
+- Updated dependencies.
+
 ## v2.2.1, 2019-05-27
 
 Fetched from [heiseonline/shariff](https://github.com/heiseonline/shariff):

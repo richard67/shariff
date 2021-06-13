@@ -14,6 +14,10 @@ env:
   global:
     - BASE_NAME=shariff-plus-$TRAVIS_TAG
 
+cache:
+  directories:
+    - node_modules
+
 script:
   - npm run test
 
@@ -35,7 +39,7 @@ deploy:
   - provider: npm
     email: richard.fath@t-online.de
     api_key:
-      secure: "T1G1Qoi4TT7opqhDwXiP17m21zVJJuTOU3/JkUGbN5gbaM9fW/Hil8yQpHE5CHLtkA7W8I+NMG3vaL6+Mp9cqoO1tP1THppR19bP7FR9r7t1Oi+9NHNrQk8G1oZaOeAHYdD3BPUT58f1VkwwEb/QLlzLV4IUwZjdHg4r7wTjc9tDRphfm3wbVKIo9A3+L6DpTiO0sAT4xeQsKKSvdwpOlM+tt/ruifr7slSmuq9kpmjwYLMxxi0xW0sDkTSDqXcdfITiWaQ+x/2D/0yLkSlyh3J+BUruB91V5tGSZv5LzSBv9nPVU1sZzmHYwYfAPjae3d26QGFPjPpsE7E8uAaobgACNKoqlACu0IvusfTBBB46D9l/eU3DTefVBMmxaV7v+nEAuNVWdQj2rLOmwLXuOB4p9bUhEQlP/vy5PrmN0VoWlAzebuGyfUQp0CcNRbeQ2DCgXGIBXXBqq452O2jcN38FYQ/uszl8Rts4jDluHlFHk7evkcHuG7vu2mDxol/L6L34nHCSDD/u6p59XTgvqKA0IGzmYXI53WPmb4wIZ3zULSe2hTEKtfKcM5K1QgojqapVo6Zf8EwPWkfm0Ox5PXvk2q5HFESWDhFCU3mVOZ884YSqIm8NE19jGUCrj6aHPA/wr1jNAiRIcdVrdIYKcp/Vv6j5EVyv4RvPt+OOUBE="
+      secure: "GT4YyWJ3/FwdkeRsy52o32GyvKUYTy1TSWKXLTBrhskZ/eNSzwz+VrDJzY+oKyb4+IWw1GOJT7jXVME5UVOH72VhVCVWnbRQL4bIJQun2SjkcEeUBHDgIvtNHD5aDbFWfM5in8Upywqw1ic5QkkzlHoKChaud6p3ZGGB/7euxfojjFPN8l2mqcQi4anels0n2y2mNFo9uzTSRHAXnB8JzPs7KVRcTZsI9Vv7WXidkeOAblPUaxqMiGpYwbEcc8OOLC6f4/HLameoa10oOZWEXNqC2OYabPd39zZS43LuM1RBYXk4b58eJdG/REyg+uXx+a7FmVk7kmeIkFpBUQjEeAOJDkL9NXfCVSd+1zJYXXonV0xss7ab3dWgiZDguZcsU96zgNQ2+vMprRUm3hJ7tjlh9sXp2R34yvIo2TpfRPgYYg5TqEbQgGaY+mnTPhUcbHSDmh8/ATy+kbIi9uNYk3kY18UaS8OBttIh9bN+SmP0HLeGvYFvtghOAeKBQI64GABDsnWHdf4VLGE7QfHzoc7Zyr7v67acLo82MiPRmCZFo50WSJfkiqro4m8jfjMDf2+4a3ifP8zfCX/8AtzUfPamrNQXZGZkBs3OynttDZYNPTOVwdevqLXIJKTceTMAzT4v7OxjxzXAkr2UYOHxB2RNq/TFxbrtRKngiZx6VFY="
     skip_cleanup: true
     on:
       repo: richard67/shariff-plus

@@ -1,5 +1,66 @@
 # Changelog
 
+## v2.2.2, 2021-06-13
+
+Fetched from [heiseonline/shariff](https://github.com/heiseonline/shariff):
+
+- Remove LinkedIn share count from backend.json ([heiseonline#365](https://github.com/heiseonline/shariff/pull/365)).
+
+Fetched open pull requests from [heiseonline/shariff](https://github.com/heiseonline/shariff):
+
+- Updated WhatsApp URL to WhatsApp Web ([heiseonline#381](https://github.com/heiseonline/shariff/pull/381)).
+- Updated LinkedIn URL to 2020 Version ([heiseonline#382](https://github.com/heiseonline/shariff/pull/382)).
+- Updated max. text length for Twitter ([heiseonline#401](https://github.com/heiseonline/shariff/pull/401)).
+
+Other changes:
+
+- Open WhatsApp link in new tab (see [heiseonline#381 (comment)](https://github.com/heiseonline/shariff/pull/381#issuecomment-761708915))
+- Update iframe code for the Facebook Like button ([#21](https://github.com/richard67/shariff-plus/pull/21)).
+- Updated dependencies.
+
+## v2.2.1, 2019-05-27
+
+Fetched from [heiseonline/shariff](https://github.com/heiseonline/shariff):
+
+- Added translations for French, Italian, Polish, Russian and Dutch to print service ([heiseonline#362](https://github.com/heiseonline/shariff/pull/362)).
+- Updated dependencies.
+
+## v2.2.0, 2019-04-01
+
+- Add allow="encrypted-media" to iframe code of FB Like button in FacebookLike dialog ([#20](https://github.com/richard67/shariff-plus/pull/20)).
+
+Fetched from [heiseonline/shariff](https://github.com/heiseonline/shariff):
+
+- Added buffer service ([heiseonline#361](https://github.com/heiseonline/shariff/pull/361)).
+- Updated dependencies.
+- Updated Font Awesome to version 5.8.1 ([heiseonline#360](https://github.com/heiseonline/shariff/pull/360)).
+- Updated Xing share URL ([heiseonline#354](https://github.com/heiseonline/shariff/pull/354)).
+
+## v2.1.1, 2019-01-29
+
+Fixed deployment to npmjs.com.
+
+## v2.1.0, 2019-01-29
+
+Fetched from [heiseonline/shariff](https://github.com/heiseonline/shariff):
+
+- Improved build process ([heiseonline#326](https://github.com/heiseonline/shariff/pull/326)).
+- Fixed creator being appended to title even though data-title has been set ([heiseonline#328](https://github.com/heiseonline/shariff/pull/328)).
+- Replaced third party Java backend in readme ([heiseonline#332](https://github.com/heiseonline/shariff/pull/332)).
+- Name is diaspora* and not Diaspora ([heiseonline#342](https://github.com/heiseonline/shariff/pull/342)).
+- Fixed canonical URL handling ([heiseonline#345](https://github.com/heiseonline/shariff/pull/345)).
+- Removed googleplus service ([heiseonline#348](https://github.com/heiseonline/shariff/pull/348)).
+- Added Pocket service ([heiseonline#349](https://github.com/heiseonline/shariff/pull/349)).
+- Fixed typo in README ([heiseonline#350](https://github.com/heiseonline/shariff/pull/350)).
+- Upgraded dependencies.
+
+Note that the Google+ service has been removed due to the shutdown of Google+.
+See [https://developers.google.com/+/integrations-shutdown](https://developers.google.com/+/integrations-shutdown)
+and [https://developers.google.com/+/web/+1button/](https://developers.google.com/+/web/+1button/):
+> Google+ APIs will be shut down on March 7, 2019. This includes Google+ Sign-in. Learn more.
+> Google+ integrations for web and mobile apps will also cease to function March 7, 2019. Learn more.
+> This will be a progressive shutdown, with intermittent failures starting as early as January 28, 2019.
+
 ## v2.0.2, 2018-04-17
 
 Fetched from [heiseonline/shariff](https://github.com/heiseonline/shariff):

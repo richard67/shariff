@@ -1,6 +1,6 @@
 # Changelog
 
-## v2.2.2-dev
+## v2.2.2, 2021-06-13
 
 Fetched from [heiseonline/shariff](https://github.com/heiseonline/shariff):
 
